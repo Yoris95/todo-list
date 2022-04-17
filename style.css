@@ -1,0 +1,119 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient( 135deg, #55D9C0, #02231C);
+}
+
+.container {
+    width: 60%;
+    min-width: 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 30px;
+}
+
+#newtask {
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgb(0,0,0,0.3);
+}
+
+#newtask input {
+    width: 80%;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+}
+
+#newtask input:focus {
+    outline: none;
+    border-color: #107050;
+    
+}
+
+#newtask button {
+    position: relative;
+    float: right;
+    width: 70px;
+    height: 47px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #107050;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#task {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    position: relative;
+}
+
+.task {
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+
+.task span {
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button {
+    background-color: #107050;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    margin: 50px;
+    padding: 80px;
+    border: 1px solid;
+    border-color: #111111;
+    position:fixed;
+    
+}
