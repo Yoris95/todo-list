@@ -25,7 +25,7 @@ body {
 #newtask {
     position: relative;
     background-color: #ffffff;
-    padding: 30px 20px;
+    padding: 30px 30px;
     border-radius: 10px;
     box-shadow: 0 15px 30px rgb(0,0,0,0.3);
 }
@@ -40,6 +40,7 @@ body {
     color: #111111;
     font-weight: 500;
     position: relative;
+    border-radius: 10px;
 }
 
 #newtask input:focus {
